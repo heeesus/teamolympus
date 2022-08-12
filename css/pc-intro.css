@@ -1,0 +1,84 @@
+/* intro */
+
+
+#kk-intro { 
+  padding-top: 109px;
+}
+
+
+.kk-main-banner { 
+  background-image: url(/images/intro/banner.png);
+  width: 100%;
+  height: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kk-main-banner h1 { 
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 0.5em;
+}
+
+.kk-main-text { 
+  width: 100%;
+  height: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kk-main-text p { 
+  font-size: 40px;
+  text-align: center;
+}
+
+.kk-container { 
+  width: 1440px;
+  margin: 0 auto;
+
+}
+
+.kk-col {
+  /* outline: 1px solid red; */
+  display: flex;
+  margin-bottom: 150px;
+  
+}
+
+.kk-col h2 { 
+  font-size: 100px;
+  color: #D1D1D1;
+  text-align: right;
+  padding-bottom: 80px;
+}
+
+.kk-col p { 
+  font-weight: 400;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.kk-col-text { 
+  padding-left: 50px;
+}
+
+
+.kk-container div:nth-child(2) {
+  flex-direction: row-reverse
+}
+
+.kk-col:nth-child(2) h2{
+  text-align: left;
+}
+
+.kk-container div:nth-child(2) .kk-col-text {
+ padding-right: 50px;
+ padding-left: 0px;
+}
+
+
+
+
